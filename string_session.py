@@ -4,7 +4,7 @@ import random
 from colorama import Fore, Style, Back
 
 
-aura = """
+vamp = """
 ╔╗──╔═══╦═══╦═══╦═╗─╔╦═══╦═══╦═══╦╗──╔╗
 ║║──║╔══╣╔═╗║╔══╣║╚╗║╠╗╔╗║╔═╗║╔═╗║╚╗╔╝║  
 ║║──║╚══╣║─╚╣╚══╣╔╗╚╝║║║║║║─║║╚═╝╠╗╚╝╔╝  
@@ -13,26 +13,27 @@ aura = """
 ╚═══╩═══╩═══╩═══╩╝─╚═╩═══╩╝─╚╩╝╚═╝─╚╝   
 """
 logo = """
-╭╮╭╮╭┳━━━┳╮╱╭┳━━╮╭━━━┳━━━━╮
-┃┃┃┃┃┃╭━╮┃┃╱┃┃╭╮┃┃╭━╮┃╭╮╭╮┃
-┃┃┃┃┃┣╯╭╯┃╰━╯┃╰╯╰┫┃╱┃┣╯┃┃╰╯
-┃╰╯╰╯┣━╯╭┫╭━╮┃╭━╮┃┃╱┃┃╱┃┃
-╰╮╭╮╭┫┃╰━┫┃╱┃┃╰━╯┃╰━╯┃╱┃┃
-╱╰╯╰╯╰━━━┻╯╱╰┻━━━┻━━━╯╱╰╯
+
+╭╮╱╱╭┳━━━┳━╮╭━┳━━━┳━━╮╭━━━┳━━━━╮
+┃╰╮╭╯┃╭━╮┃┃╰╯┃┃╭━╮┃╭╮┃┃╭━╮┃╭╮╭╮┃
+╰╮┃┃╭┫┃╱┃┃╭╮╭╮┃╰━╯┃╰╯╰┫┃╱┃┣╯┃┃╰╯
+╱┃╰╯┃┃╰━╯┃┃┃┃┃┃╭━━┫╭━╮┃┃╱┃┃╱┃┃
+╱╰╮╭╯┃╭━╮┃┃┃┃┃┃┃╱╱┃╰━╯┃╰━╯┃╱┃┃
+╱╱╰╯╱╰╯╱╰┻╯╰╯╰┻╯╱╱╰━━━┻━━━╯╱╰╯
 """
 baap_bolte = """
-#Legendary W2HBot          
-Made With Love By Team W2HBot
+#Legendary VampBot          
+Made With Love By Team VampBot
 """
                                                                                                             
 print("")
-print(Style.BRIGHT + Fore.MAGENTA + aura)
+print(Style.BRIGHT + Fore.MAGENTA + vamp)
 print(Style.RESET_ALL)
 print(Style.BRIGHT + Fore.BLUE + logo)
 print(Style.RESET_ALL)
 print(Style.BRIGHT + Fore.CYAN + Back.BLUE + baap_bolte)
 print(Style.RESET_ALL)
-print("""Welcome To W2HBot String Generator By @W2HOwner""")
+print("""Welcome To VampBot String Generator By @D15H4NT0P""")
 print("""Kindly Enter Your Details To Continue ! """)
 
 API_KEY = input("API_KEY: ")
@@ -46,11 +47,11 @@ while True:
             session = client.session.save()
             client.send_message(
                 "me",
-                f"Here is your TELEGRAM STRING SESSION\n(Tap to copy it)👇 \n\n `{session}` \n\n And Visit @W2H_Userbot For Any Help !",
+                f"Here is your TELEGRAM STRING SESSION\n(Tap to copy it)👇 \n\n `{session}` \n\n And Visit @VAMPBOT_OFFICIAL For Any Help !",
             )
 
             print(
-                "Thanks for Choosing W2HBot Have A Good Time....Note That When You Terminate the Old Session ComeBack And Genrate A New String Session Old One Wont Work"
+                "Thanks for Choosing VampBot Have A Good Time....Note That When You Terminate the Old Session ComeBack And Genrate A New String Session Old One Wont Work"
             )
     except:
         print("")
