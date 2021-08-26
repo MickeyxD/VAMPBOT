@@ -4,19 +4,19 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $W2H_REPO == "W2HBot" ]]
+    if [[ $VAMP_REPO == "VampBot" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1cySEdhbGF4eS1PUC9XMkhVc2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    elif [[ $W2H_REPO == "W2HBot" ]]
+    elif [[ $VAMP_REPO == "VampBot" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1cySEdhbGF4eS1PUC9XMkhVc2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    elif [[ $W2H_REPO =~ $regex ]]
+    elif [[ $VAMP_REPO =~ $regex ]]
     then
-        if [[ $W2H_REPO_BRANCH ]]
+        if [[ $VAMP_REPO_BRANCH ]]
         then
-            echo "${W2H_REPO}/archive/${W2H_REPO_BRANCH}.zip"
+            echo "${VAMP_REPO}/archive/${VAMP_REPO_BRANCH}.zip"
         else
-            echo "${W2H_REPO}/archive/master.zip"
+            echo "${VAMP_REPO}/archive/master.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL1cySEdhbGF4eS1PUC9XMkhVc2VyYm90L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
@@ -26,20 +26,20 @@ _get_repolink () {
 
 _set_bot () {
     local zippath
-    zippath="W2HBot.zip"
+    zippath="VampBot.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
-    W2HPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    VAMPPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
     echo "  Cleaning ..."
     rm -rf "$zippath"
     sleep 5
-    cd $W2HPATH
-    echo "    Starting W2HBot    "
+    cd $VAMPPATH
+    echo "    Starting VampBot    "
     echo "
-    W2HBOT
+    VAMPBOT
     "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
