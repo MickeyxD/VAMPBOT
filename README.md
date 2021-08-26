@@ -1,7 +1,18 @@
+<h1 align="center">⚡ 𝕎𝟚ℍ𝔹𝕠𝕥 ⚡</h1>
+
+
+[![W2HBot logo](https://telegra.ph/file/7a288583a47e08a6098b3.jpg)](https://t.me/W2H_Userbot)
+
+<h2 align="center">The owner would not be responsible for any kind of bans due to the bot.</h2>
+
+<h1 align="center">FORK AT YOUR OWN RISK</h1>
+
+<h2 align="center">⚙️ D E P L O Y I N G ⚙️</h2>
+
 
 <h3> DEPLOY TO HEROKU </h3>
 
-<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FD15H4NT0P%2FVAMPBOT&template=https%3A%2F%2Fgithub.com%FD15H4NT0P%2FVAMPBOT" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
+<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2D15H4NT0P%2FVAMPBOT&template=https%3A%2F%2Fgithub.com%2FD15H4NT0P%2FVAMPBOT" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
 </a>
 
 <h3> StringSession </h3>
@@ -17,7 +28,7 @@
 
 <h1 align="center">TO HOST 𝕎𝟚ℍ𝔹𝕠𝕥 LOCALLY OR ON ANY OTHER VPS CLICK BELOW</h1>
 
-<h2 align="center"> <a href="https://github.com/W2HGalaxy-OP/W2HUserbot">⚡ 𝕎 𝟚 ℍ 𝕌 𝕊 𝔼 ℝ 𝔹 𝕆 𝕋  ⚡</a></h2>
+<h2 align="center"> <a href="https://github.com/D15H4NT0P/VAMPUSERBOT">⚡ 𝕎 𝟚 ℍ 𝕌 𝕊 𝔼 ℝ 𝔹 𝕆 𝕋  ⚡</a></h2>
 
 ## Mandatory Vars
 
