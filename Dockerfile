@@ -1,7 +1,7 @@
 FROM sandy1709/catuserbot:alpine
 
 #clonning repo 
-RUN git clone https://github.com/D15H4NT0P/VAMPBOT.git /root/userbot
+RUN git clone https://github.com/D15H4NT0P/VAMPUSERBOT.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
