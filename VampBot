@@ -7,10 +7,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $DARK_REPO == "VAMPBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0hhcnNoLTc4L3BlcnNvbmFsL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0QxNUg0TlQwUC9WQU1QVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $DARK_REPO == "VAMPBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0hhcnNoLTc4L3BlcnNvbmFsL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0QxNUg0TlQwUC9WQU1QVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $DARK_REPO =~ $regex ]]
     then
         if [[ $DARK_REPO_BRANCH ]]
@@ -20,14 +20,14 @@ _get_repolink () {
             echo "${DARK_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0hhcnNoLTc4L3BlcnNvbmFsL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0QxNUg0TlQwUC9WQU1QVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     fi
 }
 
 
 _set_bot () {
     local zippath
-    zippath="darkbot.zip"
+    zippath="VampBot.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
