@@ -1,4 +1,3 @@
-<h1 align="center">⚡ 𝕎𝟚ℍ𝔹𝕠𝕥 ⚡</h1>
 
 
 [![VampBot logo](https://telegra.ph/file/62b6e6a1bb6ed711401ce.jpg)](https://t.me/VAMPBOT_OFFICIAL)
